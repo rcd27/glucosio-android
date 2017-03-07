@@ -39,14 +39,10 @@
                 android:src="@drawable/add_circle_glucose" />
 
             <TextView
-                fontPath="fonts/lato-bold.ttf"
+                style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_glucose"
-                android:textSize="12sp" />
+                android:text="@string/fab_glucose" />
         </LinearLayout>
 
         <LinearLayout
@@ -66,14 +62,10 @@
                 android:src="@drawable/add_circle_a1c" />
 
             <TextView
-                fontPath="fonts/lato-bold.ttf"
+                style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_HB1AC"
-                android:textSize="12sp" />
+                android:text="@string/fab_HB1AC" />
         </LinearLayout>
 
         <LinearLayout
@@ -92,14 +84,10 @@
                 android:src="@drawable/add_circle_weight" />
 
             <TextView
-                fontPath="fonts/lato-bold.ttf"
+                style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_weight"
-                android:textSize="12sp" />
+                android:text="@string/fab_weight" />
         </LinearLayout>
     </LinearLayout>
 
@@ -128,14 +116,10 @@
                 android:src="@drawable/add_circle_pressure" />
 
             <TextView
-                fontPath="fonts/lato-bold.ttf"
+                style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_pressure"
-                android:textSize="12sp" />
+                android:text="@string/fab_pressure" />
         </LinearLayout>
 
         <LinearLayout
@@ -154,14 +138,10 @@
                 android:src="@drawable/add_circle_ketones" />
 
             <TextView
-                fontPath="fonts/lato-bold.ttf"
+                style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_ketones"
-                android:textSize="12sp" />
+                android:text="@string/fab_ketones" />
         </LinearLayout>
 
         <LinearLayout
@@ -181,14 +161,10 @@
                 android:src="@drawable/add_circle_cholesterol" />
 
             <TextView
-                fontPath="fonts/lato-bold.ttf"
+                style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:paddingTop="8dp"
-                android:text="@string/fab_cholesterol"
-                android:textSize="12sp" />
+                android:text="@string/fab_cholesterol" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
