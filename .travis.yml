@@ -28,7 +28,7 @@ after_success:
 
 script:
  - cd $TRAVIS_BUILD_DIR/
- - ./gradlew testDebugUnitTest assembleDebug jacocoTestReport
+ - ./gradlew testDebugUnitTest assembleDebug jacocoTestReport -s
  
 notifications:
   slack: glucosio:uk2xb9sAxOaVedj7zePyuBqa
