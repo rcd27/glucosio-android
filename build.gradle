@@ -27,7 +27,7 @@ buildscript {
     dependencies {
         // TODO: Please revert to a stable gradle version before releasing on prod
         // Alpha is required in devel to use Instant Run and speed up development process
-        classpath 'com.android.tools.build:gradle:2.3.0-beta1'
+        classpath 'com.android.tools.build:gradle:2.3.0'
         classpath 'com.google.gms:google-services:3.0.0'
         classpath 'io.realm:realm-gradle-plugin:1.2.0'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
@@ -43,7 +43,7 @@ allprojects {
         jcenter()
     }
 
-    ext.buildToolsVer = '25.0.1'
+    ext.buildToolsVer = '25.0.2'
 
     ext.androidSupportVer = '25.1.0'
     ext.googlePlayServicesVer = '10.0.1'
@@ -58,5 +58,5 @@ allprojects {
     apply plugin: 'com.github.ben-manes.versions'
 }
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.13'
+    gradleVersion = '3.4.1'
 }

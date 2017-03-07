@@ -53,7 +53,7 @@ android {
             testCoverageEnabled true
 
             buildConfigField 'String', 'GOOGLE_ANALYTICS_TRACKER', '"UA-68882401-2"'
-            buildConfigField "String[]", "TRANSLATION_ARRAY", "new String[]{}"
+            buildConfigField "String[]", "TRANSLATION_ARRAY", getAllLocales()
         }
 
         release {
@@ -174,7 +174,7 @@ def getAllLocales() {
     def foundLocales = new StringBuilder()
     foundLocales.append("new String[]{")
 
-    fileTree("src/main/res").visit { FileVisitDetails details ->
+    fileTree("src/main/res").visit { details ->
         if (details.file.path.endsWith("strings.xml")) {
             def languageCode = details.file.parent.tokenize('/\\').last().replaceAll('values-', '').replaceAll('-r', '-')
             languageCode = (languageCode == "values") ? "en" : languageCode;
