@@ -421,6 +421,14 @@
     <string name="fab_cholesterol">Cholesterol Level</string>
     <string name="fab_HB1AC">HbA1c Reading</string>
     <string name="fab_glucose">Blood Glucose Level</string>
+
+    <string name="add_readings__weight">Body Weight</string>
+    <string name="add_readings__ketones">Ketones</string>
+    <string name="add_readings__pressure">Blood Pressure</string>
+    <string name="add_readings__cholesterol">Cholesterol Level</string>
+    <string name="add_readings__HB1AC">HbA1c Reading</string>
+    <string name="add_readings__glucose">Blood Glucose Level</string>
+
     <string name="dialog_error_duplicate">You already have an entry for this time. Please remove it before adding a correction.</string>
     <string name="freestylelibre_nfc_ready">Please, put your phone on the sensor and do not move until it vibrates.</string>
     <string name="freestylelibre_nfc_not_supported">This device doesn\'t support NFC.</string>

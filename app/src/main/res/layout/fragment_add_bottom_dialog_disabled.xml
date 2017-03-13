@@ -42,7 +42,7 @@
                 style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fab_glucose" />
+                android:text="@string/add_readings__glucose" />
         </LinearLayout>
 
         <LinearLayout
@@ -63,7 +63,7 @@
                 style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fab_HB1AC" />
+                android:text="@string/add_readings__HB1AC" />
         </LinearLayout>
 
         <LinearLayout
@@ -83,7 +83,7 @@
                 style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fab_weight" />
+                android:text="@string/add_readings__weight" />
         </LinearLayout>
     </LinearLayout>
 
@@ -111,7 +111,7 @@
                 style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fab_pressure" />
+                android:text="@string/add_readings__pressure" />
         </LinearLayout>
 
         <LinearLayout
@@ -131,7 +131,7 @@
                 style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fab_ketones" />
+                android:text="@string/add_readings__ketones" />
         </LinearLayout>
 
         <LinearLayout
@@ -152,7 +152,7 @@
                 style="@style/bottom_sheet_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/fab_cholesterol" />
+                android:text="@string/add_readings__cholesterol" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
